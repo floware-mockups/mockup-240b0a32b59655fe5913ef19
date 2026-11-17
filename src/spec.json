@@ -1,0 +1,301 @@
+{
+  "title": "Gestione inventario arredi scolastici",
+  "description": "Prototipo per consultare, filtrare e aggiornare gli arredi per aula, quantità e stato di conservazione. Tutti i dati sono inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Panoramica dell’inventario e delle condizioni degli arredi.",
+      "metrics": [
+        {
+          "label": "Articoli inventariati",
+          "value": "48"
+        },
+        {
+          "label": "Aule con arredi",
+          "value": "8"
+        },
+        {
+          "label": "In buono stato",
+          "value": "31"
+        },
+        {
+          "label": "Da verificare",
+          "value": "11"
+        },
+        {
+          "label": "Da riparare",
+          "value": "6"
+        }
+      ],
+      "columns": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Aula Lumo",
+          "Banco singolo",
+          "18",
+          "Buono"
+        ],
+        [
+          "Aula Vela",
+          "Sedia",
+          "24",
+          "Da verificare"
+        ],
+        [
+          "Aula Nubi",
+          "Armadio",
+          "2",
+          "Buono"
+        ],
+        [
+          "Aula Riva",
+          "Tavolo docente",
+          "1",
+          "Da riparare"
+        ],
+        [
+          "Aula Brina",
+          "Lavagna",
+          "1",
+          "Buono"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "inventario",
+      "title": "Inventario arredi",
+      "description": "Elenco filtrabile degli arredi registrati. Filtra per aula o stato e cerca per nome dell’arredo.",
+      "metrics": [],
+      "columns": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato",
+        "Codice inventario",
+        "Ultimo controllo"
+      ],
+      "rows": [
+        [
+          "Aula Lumo",
+          "Banco singolo",
+          "18",
+          "Buono",
+          "INV-LU-001",
+          "12/02/2025"
+        ],
+        [
+          "Aula Lumo",
+          "Sedia",
+          "18",
+          "Buono",
+          "INV-LU-002",
+          "12/02/2025"
+        ],
+        [
+          "Aula Lumo",
+          "Scaffale basso",
+          "2",
+          "Da verificare",
+          "INV-LU-003",
+          "12/02/2025"
+        ],
+        [
+          "Aula Vela",
+          "Banco singolo",
+          "20",
+          "Buono",
+          "INV-VE-001",
+          "14/02/2025"
+        ],
+        [
+          "Aula Vela",
+          "Sedia",
+          "24",
+          "Da verificare",
+          "INV-VE-002",
+          "14/02/2025"
+        ],
+        [
+          "Aula Vela",
+          "Armadio",
+          "1",
+          "Da riparare",
+          "INV-VE-003",
+          "14/02/2025"
+        ],
+        [
+          "Aula Nubi",
+          "Banco singolo",
+          "16",
+          "Buono",
+          "INV-NU-001",
+          "18/02/2025"
+        ],
+        [
+          "Aula Nubi",
+          "Sedia",
+          "17",
+          "Da verificare",
+          "INV-NU-002",
+          "18/02/2025"
+        ],
+        [
+          "Aula Nubi",
+          "Armadio",
+          "2",
+          "Buono",
+          "INV-NU-003",
+          "18/02/2025"
+        ],
+        [
+          "Aula Riva",
+          "Tavolo docente",
+          "1",
+          "Da riparare",
+          "INV-RI-001",
+          "20/02/2025"
+        ],
+        [
+          "Aula Riva",
+          "Banco singolo",
+          "19",
+          "Buono",
+          "INV-RI-002",
+          "20/02/2025"
+        ],
+        [
+          "Aula Riva",
+          "Sedia",
+          "19",
+          "Buono",
+          "INV-RI-003",
+          "20/02/2025"
+        ],
+        [
+          "Aula Brina",
+          "Lavagna",
+          "1",
+          "Buono",
+          "INV-BR-001",
+          "22/02/2025"
+        ],
+        [
+          "Aula Brina",
+          "Banco singolo",
+          "21",
+          "Buono",
+          "INV-BR-002",
+          "22/02/2025"
+        ],
+        [
+          "Aula Brina",
+          "Sedia",
+          "20",
+          "Da verificare",
+          "INV-BR-003",
+          "22/02/2025"
+        ],
+        [
+          "Aula Selva",
+          "Banco singolo",
+          "18",
+          "Buono",
+          "INV-SE-001",
+          "25/02/2025"
+        ],
+        [
+          "Aula Selva",
+          "Sedia",
+          "18",
+          "Buono",
+          "INV-SE-002",
+          "25/02/2025"
+        ],
+        [
+          "Aula Selva",
+          "Scaffale alto",
+          "1",
+          "Da verificare",
+          "INV-SE-003",
+          "25/02/2025"
+        ],
+        [
+          "Aula Alba",
+          "Banco singolo",
+          "17",
+          "Buono",
+          "INV-AL-001",
+          "27/02/2025"
+        ],
+        [
+          "Aula Alba",
+          "Sedia",
+          "17",
+          "Da verificare",
+          "INV-AL-002",
+          "27/02/2025"
+        ],
+        [
+          "Aula Alba",
+          "Tavolo docente",
+          "1",
+          "Buono",
+          "INV-AL-003",
+          "27/02/2025"
+        ],
+        [
+          "Aula Quarzo",
+          "Banco singolo",
+          "15",
+          "Da verificare",
+          "INV-QU-001",
+          "03/03/2025"
+        ],
+        [
+          "Aula Quarzo",
+          "Sedia",
+          "16",
+          "Buono",
+          "INV-QU-002",
+          "03/03/2025"
+        ],
+        [
+          "Aula Quarzo",
+          "Armadio",
+          "1",
+          "Da riparare",
+          "INV-QU-003",
+          "03/03/2025"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuovo-arredo",
+      "title": "Registra arredo",
+      "description": "Aggiungi un elemento all’inventario indicando aula, quantità e stato di conservazione.",
+      "metrics": [],
+      "columns": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato"
+      ],
+      "rows": [],
+      "form": [
+        "Aula",
+        "Arredo",
+        "Quantità",
+        "Stato"
+      ]
+    }
+  ]
+}
